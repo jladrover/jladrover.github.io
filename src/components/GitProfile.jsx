@@ -12,6 +12,7 @@ import Education from './education';
 import Project from './project';
 import Blog from './blog';
 import Footer from './footer';
+import AboutMe from './about-me';
 import {
   genericError,
   getInitialTheme,
@@ -197,6 +198,10 @@ const GitProfile = ({ config }) => {
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
+                      <AboutMe
+                        content={sanitizedConfig.AboutMe}
+                        loading={loading}
+                      />
                       <Project
                         repo={repo}
                         loading={loading}

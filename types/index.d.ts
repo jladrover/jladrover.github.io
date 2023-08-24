@@ -324,6 +324,8 @@ export interface Config {
    * Custom footer
    */
   footer?: string;
+
+  AboutMe?: string;
 }
 
 export interface GitProfileProps {
