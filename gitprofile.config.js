@@ -91,7 +91,7 @@ const config = {
       title: 'Budgeting Web App',
       description:
         'Financial spending/earnings tracker built through MERN stack and deployed on vercel.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://i.ibb.co/PrJJSY3/p1.png',
       link: 'https://budgeting-application.vercel.app/',
     },
     // {
