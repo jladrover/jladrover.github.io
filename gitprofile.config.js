@@ -94,13 +94,13 @@ const config = {
       imageUrl: 'https://i.ibb.co/PrJJSY3/p1.png',
       link: 'https://budgeting-application.vercel.app/',
     },
-    // {
-    //   title: 'Project Name',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //   imageUrl: 'https://via.placeholder.com/250x250',
-    //   link: 'https://example.com',
-    // },
+    {
+      title: 'ML Projects',
+      description:
+      'Face recognition and signal processing/classification school projects.  ',
+      imageUrl: 'https://i.ibb.co/fXWW2sw/sklearnlogo.png',
+      link: 'https://github.com/jladrover/ML-Projects',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
