@@ -97,9 +97,16 @@ const config = {
     {
       title: 'ML Projects',
       description:
-      'Face recognition and signal processing/classification school projects.  ',
+      'Face recognition and signal processing/classification school projects.',
       imageUrl: 'https://i.ibb.co/fXWW2sw/sklearnlogo.png',
       link: 'https://github.com/jladrover/ML-Projects',
+    },
+    {
+      title: 'NLP Projects',
+      description:
+      'Text preprocessing and character language model projects for school.',
+      imageUrl: 'https://i.ibb.co/CKSkc07/nltk.png',
+      link: 'https://github.com/jladrover/NLP-Projects',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
