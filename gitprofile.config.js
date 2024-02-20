@@ -76,7 +76,7 @@ const config = {
   education: [
     {
       institution: 'New York University',
-      degree: 'B.A. Computer Science',
+      degree: 'B.A. Computer Science, Minor in Mathematics',
       from: '2020',
       to: '2024',
     },
