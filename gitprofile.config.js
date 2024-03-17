@@ -107,9 +107,16 @@ const config = {
     {
       title: 'NLP Projects',
       description:
-      'Text preprocessing and character language model projects for school.',
+      'Text preprocessing and character language model projects.',
       imageUrl: 'https://i.ibb.co/CKSkc07/nltk.png',
       link: 'https://github.com/jladrover/NLP-Projects',
+    },
+    {
+      title: 'FAT32 File Recovery Software',
+      description:
+      'Application that recovers deleted files on a FAT32 file system.',
+      imageUrl: 'https://i.ibb.co/2dCX1bV/Untitled-2.png',
+      link: 'https://github.com/jladrover/fileRS',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
