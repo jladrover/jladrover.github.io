@@ -40,14 +40,17 @@ const config = {
     'MySQL',
     'Docker',
     'Flask',
+    'Unix', 
     'Git',
     'MongoDB',
     'Neo4j',
     'JavaScript',
-    'React.js',
+    'React',
     'Node.js',
     'Express.js',
-    'AWS'
+    'AWS',
+    'GCP',
+    'Firebase',
   ],
   // experiences: [
   //   {
