@@ -36,6 +36,8 @@ const config = {
     'Python',
     'Java',
     'C',
+    'C++',
+    'R',
     'PostgreSQL',
     'MySQL',
     'Docker',
@@ -51,6 +53,7 @@ const config = {
     'AWS',
     'GCP',
     'Firebase',
+    'Heroku',
   ],
   // experiences: [
   //   {
