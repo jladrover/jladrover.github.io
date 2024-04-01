@@ -35,8 +35,7 @@ const config = {
   skills: [
     'Python',
     'Java',
-    'C',
-    'C++',
+    'C/C++',
     'R',
     'PostgreSQL',
     'MySQL',
@@ -49,7 +48,7 @@ const config = {
     'JavaScript',
     'React',
     'Node.js',
-    'Express.js',
+    'Docker Hub',
     'AWS',
     'GCP',
     'Firebase',
@@ -71,14 +70,14 @@ const config = {
   //     companyLink: 'https://example.com',
   //   },
   // ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Machine Learning Engineering for Production (MLOps) Specialization',
+      body: 'Deeplearning.ai',
+      year: 'April 2024',
+      // link: 'https://example.com'
     },
-  ], */
+  ], 
   education: [
     {
       institution: 'New York University',
@@ -102,6 +101,13 @@ const config = {
         'Financial spending/earnings tracker built through MERN stack and deployed on vercel.',
       imageUrl: 'https://i.ibb.co/PrJJSY3/p1.png',
       link: 'https://budgeting-application.vercel.app/',
+    },
+    {
+      title: 'Pyweath',
+      description:
+        'Python package that retrieves weather data from OpenWeatherMap API.',
+      imageUrl: 'https://i.ibb.co/DrFXQWB/pypi.png',
+      link: 'https://pypi.org/project/pyweath/',
     },
     {
       title: 'ML Projects',
@@ -159,32 +165,25 @@ const config = {
       'dark',
       'cupcake',
       'bumblebee',
-      'emerald',
       'corporate',
       'synthwave',
       'retro',
-      'cyberpunk',
       'valentine',
       'halloween',
-      'garden',
       'forest',
       'aqua',
       'lofi',
       'pastel',
       'fantasy',
-      'wireframe',
       'black',
       'luxury',
       'dracula',
-      'cmyk',
       'autumn',
       'business',
-      'acid',
       'lemonade',
       'night',
       'coffee',
       'winter',
-      'procyon',
     ],
 
     // Custom theme
