@@ -34,25 +34,26 @@ const config = {
   },
   skills: [
     'Python',
-    'Java',
-    'C/C++',
+    'JavaScript',
+    'C',
     'R',
-    'PostgreSQL',
-    'MySQL',
+    'PostgreSQL/MySQL',
     'Docker',
+    'Django',
     'Flask',
     'Unix', 
     'Git',
     'MongoDB',
     'Neo4j',
-    'JavaScript',
+    'Java',
     'React',
-    'Node.js',
+    'Node/Express.js',
     'Docker Hub',
-    'AWS',
-    'GCP',
+    'AWS/GCP',
+    'Swift',
     'Firebase',
-    'Heroku',
+    'Element-Plus'
+  
   ],
   // experiences: [
   //   {
@@ -96,6 +97,20 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
+      title: 'Movie-Book Matchmaker',
+      description:
+      'NLP paper on predicting relevance between books and films using plot summaries',
+      imageUrl: 'https://i.ibb.co/LQrZTyL/Distributed-Text-Categorization-using-Spark-NLP-on-AWS-EMR1.jpg',
+      link: 'https://github.com/jladrover/mbmatchmaker',
+    },
+    {
+      title: 'FAT32 File Recovery Software',
+      description:
+      'Application that recovers deleted files on a FAT32 file system.',
+      imageUrl: 'https://i.ibb.co/2dCX1bV/Untitled-2.png',
+      link: 'https://github.com/jladrover/fileRS',
+    },
+    {
       title: 'Budgeting Web App',
       description:
         'Financial spending/earnings tracker built through MERN stack and deployed on vercel.',
@@ -122,14 +137,7 @@ const config = {
       'Text preprocessing and character language model projects.',
       imageUrl: 'https://i.ibb.co/CKSkc07/nltk.png',
       link: 'https://github.com/jladrover/NLP-Projects',
-    },
-    {
-      title: 'FAT32 File Recovery Software',
-      description:
-      'Application that recovers deleted files on a FAT32 file system.',
-      imageUrl: 'https://i.ibb.co/2dCX1bV/Untitled-2.png',
-      link: 'https://github.com/jladrover/fileRS',
-    },
+    }
   ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
@@ -146,7 +154,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
